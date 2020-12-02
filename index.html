@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Google maps</title>
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i"
+      type="text/css"
+      media="all"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- question -->
+      <div id="question">
+        <h1 style="background-color:skyblue;">Locate the buildings on the map by double clicking</h1>
+        <p id="question-one">The Soraya?</p>
+        <p id="answer-one"></p>
+        <p id="question-two"></p>
+        <p id="answer-two"></p>
+        <p id="question-three"></p>
+        <p id="answer-three"></p>
+        <p id="question-four"></p>
+        <p id="answer-four"></p>
+        <p id="question-five"></p>
+        <p id="answer-five"></p>
+
+        <div id="total-result">
+          <div id="correct">
+            <h1>Correct:</h1>
+            <p id="correct-result">0</p>
+          </div>
+          <div id="wrong">
+            <h1>Wrong:</h1>
+            <p id="wrong-result">0</p>
+          </div>
+        </div>
+        <br />
+        <button id="reset">Start over</button>
+      </div>
+      <!-- map -->
+      <div id="map"></div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSI33aS7egivjjPKwzUNVZkslvc3NGeeY&callback=initMap"
+      async                                          
+      defer
+    ></script>
+  </body>
+</html>
