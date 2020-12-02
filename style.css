@@ -1,0 +1,75 @@
+html, body {
+  background-color: navy;
+  height: 100%;
+  width: 100%;
+}
+
+.timer {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+#map {
+  margin: 20px;
+  padding: 10px;
+  width: 60%;
+  height: 100%;
+}
+
+#question {
+  text-align: center;
+  font-weight: bold;
+  width: 30%;
+  height: 40%;
+  margin-right: 10px;
+  float: left;
+  background-color: navy;
+
+}
+
+#question-one, #question-two, #question-three, #question-four, #question-five {
+  background-color: skyblue;
+  font-color: white;
+  height: 10%;
+  padding: 0 0 0 0;
+  
+  
+}
+#answer-one, #answer-two, #answer-three, #answer-four, #answer-five {
+  background-color: white;
+  height: 10%;
+  
+}
+
+#total-result{
+  width: 50%;
+  background-color: white;
+}
+
+#correct {
+  float: left;
+  font-size: 0.5em;
+  width: 50%;
+  height: 10%;
+  background-color: green;
+}
+#wrong {
+  float: left;
+  font-size: 0.5em;
+  width: 50%;
+  background-color: red;
+}
+
+#correct-result, #wrong-result {
+  font-size: 2em;
+}
+#reset{
+  float: right;
+  font-size: 1em;
+  width: 40%;
+  background-color: orange;
+}
