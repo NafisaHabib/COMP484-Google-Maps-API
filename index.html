@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Google maps</title>
+    <title>Google Maps API</title>
     <link
       rel="stylesheet"
       href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i"
@@ -15,10 +13,11 @@
 
   <body>
     <div id="container">
-      <!-- question -->
       <div id="question">
-        <h1 style="background-color:skyblue;">Locate the buildings on the map by double clicking</h1>
-        <p id="question-one">The Soraya?</p>
+        <h1 style="background-color:skyblue;">
+          Map Quiz, Please click on the map the location of:
+        </h1>
+        <p id="question-one">Where is The Soraya?</p>
         <p id="answer-one"></p>
         <p id="question-two"></p>
         <p id="answer-two"></p>
@@ -40,15 +39,16 @@
           </div>
         </div>
         <br />
+
         <button id="reset">Start over</button>
       </div>
-      <!-- map -->
+
       <div id="map"></div>
     </div>
     <script src="script.js"></script>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSI33aS7egivjjPKwzUNVZkslvc3NGeeY&callback=initMap"
-      async                                          
+      async
       defer
     ></script>
   </body>
